@@ -1,0 +1,364 @@
+%% AMS-LaTeX Created with the Wolfram Language for Students - Personal Use Only : www.wolfram.com
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics, setspace}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\newcounter{mathematicapage}
+\newcounter{mathematicalastpage}
+\begin{document}
+
+1. Compute the sum of the reciprocals of 3, 5, 7, 9, $\ldots $ , 63.\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{listreciprocals}=\text{Table}[1/i,\{i,3,63,2\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\frac{1}{3},\frac{1}{5},\frac{1}{7},\frac{1}{9},\frac{1}{11},\frac{1}{13},\frac{1}{15},\frac{1}{17},\frac{1}{19},\frac{1}{21},\frac{1}{23},\frac{1}{25},\frac{1}{27},\frac{1}{29},\frac{1}{31},\frac{1}{33},\frac{1}{35},\frac{1}{37},\frac{1}{39},\frac{1}{41},\frac{1}{43},\frac{1}{45},\frac{1}{47},\frac{1}{49},\frac{1}{51},\frac{1}{53},\frac{1}{55},\frac{1}{57},\frac{1}{59},\frac{1}{61},\frac{1}{63}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Total}[\text{listreciprocals}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\frac{31674468729962723297623231}{18472920064106597929865025}\)
+\end{doublespace}
+
+2. Compute \(\frac{1}{1+\frac{1}{1+\frac{1}{1+\frac{1}{2}}}}\)\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{convergentlist}=\text{Convergents}[\{0,1,1,1,2\}];}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Last}[\text{convergentlist}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\frac{5}{8}\)
+\end{doublespace}
+
+3. Obtain a 50 digit approximation to \(\sqrt{\pi }\)\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{N[\text{Sqrt}[\text{Pi}],50]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(1.7724538509055160272981674833411451827975494561224\)
+\end{doublespace}
+
+4. Use the Table function to make a list of the 30 prime numbers starting with 11 and ending with 139. Name the list P.\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Solve}[\text{Prime}[x]\text{==}11,x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{\{x\to 5\}\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Solve}[\text{Prime}[x]==139,x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{\{x\to 34\}\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{p=\text{Table}[\text{Prime}[i],\{i,5,34\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139\}\)
+\end{doublespace}
+
+5. Add the numbers in the sequence P found in question 4.\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Total}[p]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(2110\)
+\end{doublespace}
+
+6. Multiply the numbers in the list P found in question 4. Then get a count of the number of digits in the product.\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{lengthp}=\text{Length}[p]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(30\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{productp}=\text{Product}[p[[i]],\{i,1,\text{lengthp}\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(47688793574281857464329681579285428844601593586668729\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{IntegerLength}[\text{productp}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(53\)
+\end{doublespace}
+
+7. Sketch the graphs of y = sin [x], y = sin [2x], and y = sin [3x], 0 $\leq $ x $\leq $ 2$\pi $ in steps of $\pi $/2, on one set of axes. Use different
+colors for each curve.\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Plot}[\{\text{Sin}[x],\text{Sin}[2x],\text{Sin}[3x]\},\{x,0,2\text{Pi}\},\text{PlotStyle}\to \{\text{Red},\text{Green},\text{Blue}\},}\\
+\pmb{\text{PlotLegends}\to \text{{``}Expressions{''}},\text{Ticks}\to \{\{0,\text{Pi}/2,\text{Pi},3\text{Pi}/2,2\text{Pi}\},\{-1,1\}\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\begin{array}{cc}
+  &  \\
+\end{array}\)
+\end{doublespace}
+
+8. Make a list of the cubes of the integers 2, 5, 6, 9, 12, 44. Add the numbers in the list of cubes and then display the prime factorization of
+the sum. What do you notice about the prime factorization? \\
+
+
+\begin{doublespace}
+\noindent\(\pmb{f[\text{x$\_$}]\text{:=}x{}^{\wedge}3}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{cubeslist}=\text{Map}[f,\{2,5,6,9,12,44\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{8,125,216,729,1728,85184\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Total}[\text{cubeslist}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(87990\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{FactorInteger}[\text{Total}[\text{cubeslist}]]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{\{2,1\},\{3,1\},\{5,1\},\{7,1\},\{419,1\}\}\)
+\end{doublespace}
+
+All prime factors appear only once.
+
+9. Obtain the prime factorization of the product of the integers in the list of cubes described in Exercise 8.\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{FactorInteger}[\text{Product}[\text{cubeslist}[[i]],\{i,1,6\}]]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{\{2,18\},\{3,12\},\{5,3\},\{11,3\}\}\)
+\end{doublespace}
+
+10. Find two ways to find an approximate value of x for which \(2^x\)= 100 . Display the solution in a graph\\
+
+
+Method 1
+
+\begin{doublespace}
+\noindent\(\pmb{\text{NSolve}\left[2^x-100==0,x,\text{Reals}\right]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{\{x\to 6.64386\}\}\)
+\end{doublespace}
+
+Method 2
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Log}[2,100.]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(6.64386\)
+\end{doublespace}
+
+Graph
+
+\begin{doublespace}
+\noindent\(\pmb{\text{pointten}=\text{ListPlot}[\{\{6.64386,100\}\},\text{PlotStyle}\to \text{Red},\text{PlotLegends}\to \{\text{{``}(6.64386,100){''}}\}];}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{plotten}=\text{Plot}[\{2{}^{\wedge}x,y=100\},\{x,0,10\}, \text{AxesLabel}\to \{\text{x},\text{y}\}, \text{PlotLegends}\to \text{{``}Expressions{''}}];}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Show}[\text{plotten},\text{pointten}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\begin{array}{cc}
+  &  \\
+\end{array}\)
+\end{doublespace}
+
+11. What is the 115th Fibonacci number? What is the 1,115th Fibonacci number?\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Fibonacci}[115]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(483162952612010163284885\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Fibonacci}[1115]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(46960625891577894920915085010622289470462518359149677075881383631822660890718642869603700018836567361824279444479341088310462978732670769895389845153583927059046832024176024794070671098298816588315827802770672734166457585412100971385\)
+\end{doublespace}
+
+12. What are the greatest common divisor and least common multiple of 5,355 and 40,425?\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{GCD}[5355,40425]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(105\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{LCM}[5355,40425]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(2061675\)
+\end{doublespace}
+
+13. Find two ways to compute the sum of the squares of the first 20 consecutive positive integers.\\
+
+
+Method 1
+
+\begin{doublespace}
+\noindent\(\pmb{\text{squareslist}=\text{Table}[i{}^{\wedge}2,\{i,1,20\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{1,4,9,16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361,400\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Total}[\text{squareslist}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(2870\)
+\end{doublespace}
+
+Method 2
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Sum}[x{}^{\wedge}2,\{x,0,20\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(2870\)
+\end{doublespace}
+
+14. Find the first three positive solutions to the equation cos(x) = x tan(x). Display your solutions in a graph.\\
+
+
+\begin{doublespace}
+\noindent\(\pmb{\text{FindRoot}[\text{Cos}[x]\text{==}x*\text{Tan}[x],\{x,1\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{x\to 0.760807\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{FindRoot}[\text{Cos}[x]\text{==}x*\text{Tan}[x],\{x,2\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{x\to 2.81704\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{FindRoot}[\text{Cos}[x]\text{==}x*\text{Tan}[x],\{x,6\}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{x\to 6.43558\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Plot}[\{\text{Cos}[x],x*\text{Tan}[x]\},\{x,0,3\text{Pi}\},\text{PlotStyle}\to \{\text{Red},\text{Green}\},\text{AxesLabel}\to
+\{\text{x},\text{y}\},}\\
+\pmb{\text{PlotLegends}\to \text{{``}Expressions{''}}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\begin{array}{cc}
+  &  \\
+\end{array}\)
+\end{doublespace}
+
+\(15. \text{Evaluate}\text{   }\left(\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}\right)+\left(\frac{2}{1}+\frac{2}{2}+\frac{2}{3}+\frac{2}{4}\right)+\left(\frac{3}{1}+\frac{3}{2}+\frac{3}{3}+\frac{3}{4}\right)\)
+
+Method 1
+
+\begin{doublespace}
+\noindent\(\pmb{\text{listfourreciprocals}=\{1/1,1/2,1/3,1/4\}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{1,\frac{1}{2},\frac{1}{3},\frac{1}{4}\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{6*\text{Total}[\text{listfourreciprocals}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\frac{25}{2}\)
+\end{doublespace}
+
+Method 2
+
+\begin{doublespace}
+\noindent\(\pmb{1/1+1/2+1/3+1/4+2/1+2/2+2/3+2/4+3/1+3/2+3/3+3/4}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\frac{25}{2}\)
+\end{doublespace}
+
+\end{document}

@@ -1,0 +1,190 @@
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 5;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#firstpage{
+	background-image: url(images/Sun.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding-bottom: 223px;
+}
+#page1h{
+	color: #EAEAEA;
+	font-family: Arial; 
+	font-size: 150px;
+	font-weight: lighter;
+	padding-top: 263px;
+	/*position: absolute;*/
+	padding-left: 80px;
+	margin-top: 0px;
+}
+body{
+	margin: 0px;
+
+}
+#nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3C4F76; 
+	position: fixed;
+	top: 0;
+	min-width: 1287px;
+	width: 100%;
+}
+li.navelement{
+	display: block;
+	float: right;
+	color: white;
+	font-family: Arial;
+	padding: 14px 0px;
+	font-size: 20px;
+	font-weight: lighter;
+	border-width: 0px;
+}
+li.navelement a{
+	color: white;
+	text-decoration: none;
+	padding:15px;
+
+}
+li.navelement a:hover{
+	background-color: #0F0A2C; 
+
+}
+#name{
+	padding-right: 758px;
+}
+#pagetwo{
+		background-image: url(images/Beach.jpg);
+}
+#pagefour{
+	background-image: url(images/Clouds.jpg);
+}
+#pagefour h1{
+margin-top: 0;
+}
+.even{
+
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	height: 536.5px;
+	padding-bottom: 223px;
+	background-size: 100%;
+}
+
+#empty1{
+	height: 25px;
+	margin:0px;
+}
+body{
+	font-family: Arial;
+}
+#personalinfo{
+	text-align: center;
+	font-size: 75px;
+}
+.leftbox {
+	margin-top: 0px;
+	background-color: rgba(0,0,0,0.8);
+	width: 60%;
+	position: left 0;
+	font-size: 28px;
+	line-height: 50px;
+	padding-right: 20px;
+	color: white;
+	border-radius: 15px;
+	margin-left: 226px;
+
+}
+#piano{
+	height: 300px;
+	width: 300px;
+	float: right;	
+	padding-top: 82px;
+}
+.pianopage{
+	display: inline-block;
+	float: left;
+}
+#morepiano{
+	list-style-type: none;
+}
+.leftbox p{
+	padding-left: 23px;
+}
+#MusicTitle{
+	text-align: center;
+	font-size: 75px;
+	padding-top: 70px;
+}
+#pagethree{
+	background-image: url(images/Moon.jpg);
+	height: 100%;
+}
+#pagethree h1{
+	margin-top: 0px;
+	padding-top: 20px;
+	font-size: 75px;
+	text-align: center;
+}
+#pagethree p{
+	padding-left: 10px;
+
+}
+#pagethree img{
+	height: 150px;
+}
+
+#pagefive{
+	background-image: url(images/Balloon.jpg);
+	height: 100%;
+}
+#pagefive h1{
+		margin-top: 0px;
+	padding-top: 50px;
+	font-size: 75px;
+	text-align: center;
+}
+#pagesix{
+	background-image: url(images/DarkBackground.jpg);
+	height: 135%;
+}
+#pagesix h1{
+		margin-top: 0px;
+	padding-top: 50px;
+	font-size: 75px;
+	text-align: center;
+}
+#pageseven{
+	background-image: url(images/Stars.jpg);
+	height: 135%;
+}
+#pageseven h1{
+		margin-top: 0px;
+	padding-top: 50px;
+	font-size: 75px;
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+	background-color: white;
+	color: black;
+}
+.link:hover{
+	background-color: rgba(0,0,0,0);
+	color: white;
+}

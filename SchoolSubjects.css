@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	background-image: url(images/Balloon.jpg);
+}
+#nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3C4F76; 
+	position: fixed;
+	top: 0;
+	min-width: 1287px;
+	width: 100%;
+}
+li.navelement{
+	display: block;
+	float: right;
+	color: white;
+	font-family: Arial;
+	padding: 14px 0px;
+	font-size: 20px;
+	font-weight: lighter;
+	border-width: 0px;
+}
+
+li.navelement a{
+	color: white;
+	text-decoration: none;
+	padding:15px;
+
+}
+#name{
+	padding-right: 59%;
+}
+li.navelement a:hover{
+	background-color: #0F0A2C; 
+
+}
+#subjects{
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+	margin-top: 4%; 
+}
+#subjects li{
+	text-align: center;	
+	margin:0;
+	width: 100%;
+	height: 13%;
+}
+#subjects a{
+	text-decoration: none;
+	color:white;
+	font-size: 30px;
+	font-family: Arial;
+	display: block;
+	vertical-align: middle;
+	    -o-transition:color .2s ease-out, background .2s ease-in;
+    -ms-transition:color .2s ease-out, background .2s ease-in;
+    -moz-transition:color .2s ease-out, background .2s ease-in;
+    -webkit-transition:color .2s ease-out, background .2s ease-in;
+    transition:color .2s ease-out, background .2s ease-in;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
+
+#subjects a:hover{
+	background-color: white;
+	color: black;
+}

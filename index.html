@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+	
+		<title>Praneet Mekala</title>
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="Script.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<meta charset="UTF-8">
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+	</head>
+	
+	<body>	
+
+		<ul id="nav">
+			<li id="schooloh" class="navelement">
+				<a  class="ahhhh" href="School.html">School Subjects</a>
+			<div class="dropdown">
+				<a href="CS.html">CS</a>
+				<a href="Hum.html">Hum</a>
+				<a href="Lang.html">Lang</a>
+				<a href="Math.html">Math</a>
+				<a href="Physics.html">Physics</a>
+				<a href="STEM.html">Stem</a>
+				<a href="STW.html">STW</a>
+			</div>
+			</li>
+
+			<li class="navelement">
+				<a  class="ahhhh" href="AboutMe.html">About Me</a>
+			</li>
+			<li class="navelement">
+				<a href="index.html">Home</a>
+			</li>
+			<li class="navelement" id="name">
+				Praneet Mekala
+			</li>
+
+		</ul>
+		<div id="main">
+			<h1>Welcome</h1>
+			<div id="a">
+				<a href="#main2"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"  style="font-size:90px; text-align:center"></i></a>
+			</div>
+		</div>
+		<div id="main2">
+			<div id="Personal">
+				<div class="elements">
+				<ul id="icons">
+					
+						
+							<li id="marginhelp" class="mainlist">
+								<a class="biglink" href="AboutMe.html">
+									<i id="user" class="fa fa-user" aria-hidden="true"></i>
+								<br>
+								<p class="words">About Me</p>
+								</a>
+							</li>
+						
+				
+
+							<li class="mainlist">
+								<a  class="biglink" href="School.html">
+								<i id="user2" class="fa fa-book" aria-hidden="true"></i>
+								<br>
+								<p class="words">School</p>
+								</a>
+							</li>
+
+					
+				</ul>
+				</div>																								
+			</div>
+		</div>
+
+	</body> 
+ 
+</html>

@@ -1,0 +1,185 @@
+	h1{
+	color: #EAEAEA;
+	text-align: center;
+	font-family: Arial; 
+	font-size: 150px;
+	font-weight: lighter;
+	padding-top: 175px;
+	margin-top: 0px;
+
+}
+#a{
+	text-align: center;
+	padding-bottom: 178px;
+}
+i{
+	color:  #EAEAEA;
+	margin: 0;
+	padding: 0;
+	border-radius: 38.578px;
+	height:77.156px;
+}
+#nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3C4F76; 
+	position: fixed;
+	top: 0;
+	min-width: 1287px;
+	width: 100%;
+}
+li.navelement{
+	display: block;
+	float: right;
+	color: white;
+	font-family: Arial;
+	padding: 14px 0px;
+	font-size: 20px;
+	font-weight: lighter;
+	border-width: 0px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+li.navelement a{
+	color: white;
+	text-decoration: none;
+	padding:15px;
+
+}
+#name{
+	padding-right: 59%;
+}
+li.navelement a:hover{
+	background-color: #0F0A2C; 
+
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 "Arial";
+    font-size: inherit;
+ }
+
+#Personal{
+	padding-top: 170px;	
+
+}
+#icons{
+	font-size: 100px;
+	margin-top: 0px;
+	padding-bottom: 550px;
+	margin-bottom: 0px;
+	margin-left: -6%;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: block;
+	float:left;
+	padding:20px;
+	margin: 0 auto;
+
+
+}
+.elements{
+	width:1000px;
+	text-align: center;
+	/*border: solid white 5px;*/
+	margin-left: 10%;
+}
+#main{
+	background-image: url(images/Balloon.jpg);
+	background-attachment: fixed;
+}
+#main2{
+	background-image: url(images/DarkBackground.jpg);
+	background-attachment: fixed;
+}
+li p{
+	color: white;
+	font-size: 50px;
+}
+li{
+	text-align: center;
+}
+.mainlist{
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 20px;
+	width:340px;
+	height: 401px;
+	-o-transition:color .2s ease-out, background .2s ease-in;
+ 	-ms-transition:color .2s ease-out, background .2s ease-in;
+ 	-moz-transition:color .2s ease-out, background .2s ease-in;
+ 	-webkit-transition:color .2s ease-out, background .2s ease-in;
+ 	transition:color .2s ease-out, background .2s ease-in;
+ 	list-style-type: none;
+ 	padding: 0;
+
+}
+.mainlist a {
+     text-decoration: none;
+     display: block;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+}
+#user{
+	padding-left: 35px;
+}
+.mainlist:hover{
+	background-color: rgba(255,255,255,1);
+	color: black;
+
+}
+.mainlist:hover i{
+	color: black;
+}
+.mainlist:hover p{
+	color:black;
+}
+#marginhelp{
+	margin-right: 151px;
+	margin-left: 105px;
+}
+.words{
+	margin-top: 30px;
+}
+#user{
+	font-size: 193px;
+	padding-top: 50px;
+}
+#user2{
+	font-size: 193px;
+	padding-left: 33px;
+	padding-top: 50px;
+}
+.ahhhh{
+	padding-bottom: 15px;
+}
+.dropdown{
+    /*display: none;*/
+    position: absolute;
+    background-color: #3C4F76;	
+    top:51px;
+}
+.dropdown a {
+    color: #0F0A2C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#schooloh:hover .dropdown {
+    display: block;
+}
+.biglink{
+	display: block;
+}

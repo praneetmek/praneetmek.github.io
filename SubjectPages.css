@@ -1,0 +1,98 @@
+body{
+	background-image: url(images/Balloon.jpg);
+    background-position:fixed;
+	color:white;
+	font-family: Arial;
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+	padding-top: 90px;
+}
+#description{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    padding-left: 1%;
+}
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3C4F76; 
+    position: fixed;
+    top: 0;
+    min-width: 1287px;
+    width: 100%;
+    z-index: 2;
+}
+li.navelement{
+    display: block;
+    float: right;
+    color: white;
+    font-family: Arial;
+    padding: 14px 0px;
+    font-size: 20px;
+    font-weight: lighter;
+    border-width: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+li.navelement a{
+    color: white;
+    text-decoration: none;
+    padding:15px;
+
+}
+#name{
+    padding-right: 59%;
+}
+li.navelement a:hover{
+    background-color: #0F0A2C; 
+
+}
+.file{
+	text-decoration: none;
+	display: block;
+	color:white;
+	font-family: Arial;
+	font-size: 20px;
+	padding-top: 0.5%;
+	padding-bottom: 2%;
+	padding-left: 1%;
+	    -o-transition:color .2s ease-out, background .2s ease-in;
+    -ms-transition:color .2s ease-out, background .2s ease-in;
+    -moz-transition:color .2s ease-out, background .2s ease-in;
+    -webkit-transition:color .2s ease-out, background .2s ease-in;
+    transition:color .2s ease-out, background .2s ease-in;
+}
+div{
+	background-color: rgba(0,0,0,0.8);
+	width:80%;
+	margin: auto;
+	border-radius: 10px;
+	    -o-transition:color .2s ease-out, background .2s ease-in;
+    -ms-transition:color .2s ease-out, background .2s ease-in;
+    -moz-transition:color .2s ease-out, background .2s ease-in;
+    -webkit-transition:color .2s ease-out, background .2s ease-in;
+    transition:color .2s ease-out, background .2s ease-in;
+    margin-bottom: 2%;
+}
+h2{
+	text-align: center;
+}
+div:hover{
+	background-color: white;
+}
+div:hover a{
+	color: black;
+}
+#wow{
+    margin-left:40%;
+}
